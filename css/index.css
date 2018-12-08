@@ -1,0 +1,66 @@
+.container-fluid > div{
+	
+}
+#nom_ville, #nom_ville2{
+	font-size: 200%;;
+	color: #424242;
+	text-transform: uppercase;
+}
+body{
+	background-image: url(../img/42396125_562845504145155_2112569124411408384_n.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.container-fluid{
+	background-color: rgba(255,255,255,0.40);
+	width: 70vw;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 50%;
+}
+.container-fluid.deux{
+	background-color: rgba(255,255,255,0.40);
+	width: 70vw;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 55%;
+}
+#description, #description2{
+	font-size: 1.5em;
+	margin-top: -10px;
+}
+#temp_min, #temp_max, #temp_min2, #temp_max2{
+	margin-top: 10px;
+	font-size: 2em;
+}
+#temp_min, #temp_min2{
+	color: #29D74D;
+	font-weight: bolder;
+}
+#temp_max, #temp_max2{
+	color: #D7292C;
+	font-weight: bolder;
+}
+.bg-light{
+	background-color: transparent!important;
+	color: white;
+}
+.bg-dark{
+	background-color: rgba(255,255,255,0.40)!important;
+}
+#inputville{
+	border-radius: 15px;
+	background-color: rgba(255,255,255,0.40)!important
+}
+.btn{
+	border-radius: 15px;
+	/*background-color: rgba(255,255,255,0.60); */
+}
